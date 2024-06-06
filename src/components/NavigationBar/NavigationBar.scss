@@ -1,0 +1,11 @@
+@import "../../styles/colors.scss";
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: $darkprimary;
+    border-bottom: 1px solid $divider;
+}

@@ -1,0 +1,17 @@
+@import "../../styles/colors.scss";
+@import "../../styles/variables.scss";
+
+.menu-item {
+    display: inline-block;
+    background: $darkprimary;
+    color: $lightprimary;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 15px;
+    transition: $trfast;
+}
+
+.menu-item:hover {
+    background: $primary;
+    cursor: pointer;
+}
