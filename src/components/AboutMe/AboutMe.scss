@@ -18,6 +18,8 @@
         text-align: justify;
         padding: 30px;
         background: $darkprimary;
+        overflow: auto;
+        word-wrap: break-word;
 
         p {
             margin-bottom: 15px;
