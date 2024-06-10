@@ -30,6 +30,7 @@
             flex-direction: column;
             gap: 15px;
             &-item {
+                @extend %shadow-sm;
                 background: $primary;
                 padding: 15px;
             }

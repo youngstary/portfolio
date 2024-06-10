@@ -14,7 +14,7 @@ export default function AboutMe () {
           I learned administration and configuration of operating systems, including Windows 10/11, Windows Server and Linux. I also learned how to configure simple local networks on TP-Link devices.
         </p>
         <p>
-          I started my programming journey with the basics of HTML and CSS, through JavaScript, and ending with popular technologies such as React and Springboot. Currently, I am developing my skills on my own with the help of tutorials and working on projects that will help me become a better programmer!
+          I started my programming journey with the basics of HTML and CSS, through JavaScript, and ending with popular technologies such as React and Spring Boot. Currently, I am developing my skills on my own with the help of tutorials and working on projects that will help me become a better programmer!
         </p>
       </section>
       <section>
