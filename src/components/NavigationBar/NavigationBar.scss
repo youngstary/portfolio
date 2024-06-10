@@ -8,4 +8,5 @@ nav {
     justify-content: space-between;
     background: $darkprimary;
     border-bottom: 1px solid $divider;
+    z-index: 999999;
 }

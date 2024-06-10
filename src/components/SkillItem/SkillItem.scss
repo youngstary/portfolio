@@ -1,6 +1,8 @@
 @import '../../styles/colors';
+@import '../../styles/utils';
 
-.skill-item{
+.skill-item {
+    @extend %shadow-sm;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -8,12 +10,19 @@
     height: 275px;
     padding: 15px;
     background: $primary;
-}
+    cursor: default;
+    margin: 30px 0px;
+    transition: $trfast;
 
-.skill-item img {
-    height: 150px;
-}
+    &:hover {
+        transform: scale(1.05);
+    }
 
-.skill-desc {
-    font-size: 18px;
+    img {
+        height: 150px;
+    }
+
+    .skill-desc {
+        font-size: 18px;
+    }
 }

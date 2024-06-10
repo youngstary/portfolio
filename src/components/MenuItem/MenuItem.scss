@@ -1,5 +1,5 @@
 @import "../../styles/colors.scss";
-@import "../../styles/variables.scss";
+@import "../../styles/utils.scss";
 
 .menu-item {
     display: inline-block;
@@ -9,9 +9,9 @@
     text-decoration: none;
     padding: 15px;
     transition: $trfast;
-}
 
-.menu-item:hover {
-    background: $primary;
-    cursor: pointer;
+    &:hover {
+        background: $primary;
+        cursor: pointer;
+    }
 }

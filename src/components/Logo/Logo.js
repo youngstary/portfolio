@@ -4,7 +4,7 @@ import './Logo.scss'
 export default function Logo() {
   return (
     <div className='logo'>
-        coolseb_
+        sbartosik_
     </div>
   )
 }

@@ -12,9 +12,9 @@ import js from '../../assets/js.png';
 import linux from '../../assets/linux.png';
 import nodejs from '../../assets/nodejs.png';
 import photoshop from '../../assets/photoshop.png';
+import python from '../../assets/python.png';
 import react from '../../assets/react.png';
 import router from '../../assets/router.png';
-import sass from '../../assets/sass.png';
 import springboot from '../../assets/springboot.png';
 import windows from '../../assets/windows.png';
 
@@ -28,7 +28,7 @@ export default function Skills () {
                 autoplay={ {
                     delay: 2000,
                 } }
-                spaceBetween={ 15 }
+                spaceBetween={ 30 }
                 breakpoints={ {
                     1600: {
                         slidesPerView: 8
@@ -56,8 +56,8 @@ export default function Skills () {
                 <SwiperSlide><SkillItem skill={ "React.js" } img={ react } /></SwiperSlide>
                 <SwiperSlide><SkillItem skill={ "Node.js" } img={ nodejs } /></SwiperSlide>
                 <SwiperSlide><SkillItem skill={ "Java" } img={ java } /></SwiperSlide>
-                <SwiperSlide><SkillItem skill={ "Springboot" } img={ springboot } /></SwiperSlide>
-                <SwiperSlide><SkillItem skill={ "Sass" } img={ sass } /></SwiperSlide>
+                <SwiperSlide><SkillItem skill={ "Spring Boot" } img={ springboot } /></SwiperSlide>
+                <SwiperSlide><SkillItem skill={ "Python" } img={ python } /></SwiperSlide>
                 <SwiperSlide><SkillItem skill={ "Photoshop" } img={ photoshop } /></SwiperSlide>
                 <SwiperSlide><SkillItem skill={ "Linux" } img={ linux } /></SwiperSlide>
                 <SwiperSlide><SkillItem skill={ "Windows Server" } img={ windows } /></SwiperSlide>
